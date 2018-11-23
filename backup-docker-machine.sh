@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 usage() {
     echo "usage: $0 MACHINE_NAME"
