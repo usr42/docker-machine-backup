@@ -18,6 +18,6 @@ Example:
 ```
 Example:
 ```
-./restore-docker-machine.sh imported-vbox docker-machine-vbox-backup.tar.gz
+./restore-docker-machine.sh imported-vbox docker-machine-vbox-machine-backup.tar.gz
 ```
 
