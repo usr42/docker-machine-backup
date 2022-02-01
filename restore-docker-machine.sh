@@ -32,7 +32,7 @@ MACHINE_DIR="$HOME/.docker/machine/machines/$MACHINE_NAME"
 TEMPLATE_MACHINE_NAME="___MACHINE_NAME___"
 TEMPLATE_HOME_DIR="___HOME_DIR___"
 
-mkdir $MACHINE_DIR
+mkdir -p $MACHINE_DIR
 tar xzf $BACKUP_FILE -C $MACHINE_DIR
 
 sed -i.bak1 "s|${TEMPLATE_HOME_DIR}|$HOME|g" $MACHINE_DIR/config.json
